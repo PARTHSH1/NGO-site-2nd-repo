@@ -45,5 +45,14 @@
   video {
     cursor: pointer;
   }
-  
+  @media (max-width: 768px) {
+    .modal-content {
+        width: 90%;  /* Wider on small screens */
+        padding: 15px; /* Reduce padding */
+    }
+
+    .close {
+        font-size: 25px; /* Slightly smaller close button */
+    }
+}
   

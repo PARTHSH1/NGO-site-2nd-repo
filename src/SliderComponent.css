@@ -43,10 +43,18 @@
 .custom-prev-arrow {
     left: 10px; /* Position prev arrow */
 }
-
-/* Responsive Design */
 @media (max-width: 768px) {
     .slider-container {
-        max-width: 100%;
+        max-width: 100%; /* Full width for smaller screens */
+        padding: 1vh;
+    }
+
+    .slick-dots li button:before {
+        font-size: 10px; /* Smaller dots for mobile */
+    }
+
+    .custom-arrow {
+        width: 25px;
+        height: 25px; /* Smaller arrows */
     }
 }

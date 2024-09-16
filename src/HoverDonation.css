@@ -67,4 +67,25 @@
     font-size: 30px;
     cursor: pointer;
   }
+  @media (max-width: 768px){
+    .body-container {
+      flex-direction: column;
+      padding: 20px;
+    }
   
+    .left-content {
+      max-width: 100%;
+    }
+  
+    .left-content h1 {
+      font-size: 5vh;
+    }
+  
+    .left-content p {
+      font-size: 2.5vh;
+    }
+  
+    .donation-box {
+      width: 100%;
+    }
+  }

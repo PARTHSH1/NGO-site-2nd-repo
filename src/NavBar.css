@@ -43,7 +43,7 @@
   color: #11d5ef; /* Change this to your desired hover color */
 }
 
-/* Add padding to the body to avoid content being hidden under the fixed navbar */
+/* Adjust body padding to avoid content being hidden under the fixed navbar */
 body {
   padding-top: 12vh; /* Adjusts the top padding to ensure no content is hidden under the navbar */
 }
